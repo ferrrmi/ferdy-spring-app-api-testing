@@ -9,6 +9,7 @@ endpoint lists:
 /greeting
 
 responses:
+<br/>
 / --> "Greetings from Spring Boot!"
 <br/>
 /status --> "Spring is up!"
