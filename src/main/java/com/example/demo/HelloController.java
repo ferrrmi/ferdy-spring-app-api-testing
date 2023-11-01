@@ -26,7 +26,7 @@ public class HelloController {
 
 	@GetMapping("/push")
 	public String newPush() {
-		return "Ferdy new push 1";
+		return "Ferdy new push 2";
 	}
 
     @GetMapping("/greeting")
