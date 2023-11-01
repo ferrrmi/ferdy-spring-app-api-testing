@@ -24,6 +24,11 @@ public class HelloController {
 		return "Spring is up!";
 	}
 
+	@GetMapping("/push")
+	public String newPush() {
+		return "Ferdy new push 1";
+	}
+
     @GetMapping("/greeting")
 	public Greeting greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
 		return new Greeting(counter.incrementAndGet(), String.format(template, name));
